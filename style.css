@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+section{
+    width: 26rem;
+}
+
+.mail{
+    width: 90%;
+    padding: 6px;
+    border: solid 1.6px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+section form h2{
+    padding: 6px;
+}
+
+.mail input{
+    width: 90%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 6px;
+}
+
+.Shipping{
+    margin-top: 3rem;
+}
+
+.country-post{
+    display: flex;
+}
+
+.country-post label{
+    display: block;
+}
+
+.country select{
+    display: inline-block;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.country{
+    margin-right: 10px;
+}
+
+.post{
+    width: 64%;
+}
+
+.country i{
+    position: relative;
+    left: -7rem;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.checkbox label{
+    margin-left: 1.2rem;
+}
+
+.submit{
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.submit input{
+    background-color: #f2994a;
+    font-size: medium;
+    height: 2.8rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+}
+
+i, label{
+    color: #828282;
+}
